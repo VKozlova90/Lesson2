@@ -10,9 +10,8 @@
                 int sum = yearOfBirthday + monthOfBirthday + dayOfBirthday;
                 System.out.println("Сумма моего года, месяца и дня рождения:" + " " + sum);
 
-                int monthBiggerDay = 5;
-                boolean res = monthBiggerDay > dayOfBirthday;
-                System.out.println("Месяц моего рождения больше даты рождения:" + res);
+                boolean monthBiggerDay = monthOfBirthday > dayOfBirthday;
+                System.out.println("Месяц моего рождения больше даты рождения:" + monthBiggerDay);
 
                 char [] myname = new char[8];
                 myname [0] = 'В';
@@ -36,5 +35,4 @@
         }
 
 
-}
-}
+
